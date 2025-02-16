@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">My Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-gray-400">About Me</a></li>
+                    <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
+                    <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="py-8">
+        <div class="container mx-auto text-center">
+            <img width="200" height="200" src="/Users/rishabmanhas/html/IMG_2095.jpg" alt="Profile Photo" class="rounded-full mx-auto mb-4">
+            <h2 class="text-2xl font-bold">About Me</h2>
+            <p class="mt-4 max-w-xl mx-auto">Hi! I'm Rishab Manhas , a Btech Student. Welcome to my personal portfolio where I showcase my skills, projects, and achievements.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="py-8 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-center">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <h3 class="font-bold">Project Title: ShopEasy Online Store</h3>
+                    <p class="mt-2">The primary goal of this project is to design and develop a fully 
+                        responsive, user-friendly, and visually appealing e-commerce website. The platform allows users to browse through products, filter by categories, add items to their cart,
+                         and proceed to checkout. The design is enhanced with interactive features 
+                         to improve the shopping experience.</p> 
+                </div>
+    
+                <div class="bg-gray-200 p-4 rounded shadow">
+                    <h3 class="font-bold">Project Title: AutoShowroom - Car Showcase Website</h3>
+                    <p class="mt-2">The purpose of this project is to create a visually appealing
+                         and interactive car showcase website. The platform allows car enthusiasts and potential buyers
+                         to explore various car models, view detailed specifications, 
+                         and connect with the showroom for further inquiries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold">Skills</h2>
+            <ul class="list-disc mt-4 max-w-lg mx-auto text-left">
+                <li>Communication</li>
+                <li>Video</li>
+                <li>TeamWork</li>
+                <li>Public Speaking </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="py-8 bg-gray-900 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold">Contact Me</h2>
+            <p class="mt-4">Feel free to reach out via email or follow me on social media.</p>
+            <form action="#" class="mt-6 max-w-lg mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-2 rounded mb-4">
+                <input type="email" placeholder="Your Email" class="w-full p-2 rounded mb-4">
+                <textarea placeholder="Your Message" class="w-full p-2 rounded mb-4"></textarea>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send Message</button>
+            </form>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-blue-400">LinkedIn</a>
+                <a href="#" class="text-blue-400">GitHub</a>
+                <a href="#" class="text-blue-400">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
